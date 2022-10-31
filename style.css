@@ -22,14 +22,24 @@ img.breakingnews-image {
 }
 
 main {
-    border: 8px solid black;
+    /* border: 8px solid black; */
     padding-left: 160px;
     padding-right: 160px;
+}
+
+.login-form div {
+    display: flex;
+}
+.login-form label {
+    /* display: inline-block; */
+    /* display: inline flow-root; */
+    width: 160px;
 }
 
 .comments-form textarea {
     width: 100%;
     height: 100px;
+    resize: vertical;
 }
 
 .comments-form .submit-button {
